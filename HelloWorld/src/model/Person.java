@@ -6,12 +6,12 @@
  * @version 1.0
  *
  * ======================================================= */
-package mgnt;
+package model;
 
-import model.Employee;
+public abstract class Person { // Abstract Class
+	public abstract void move(); // Abstract method
 
-public class Management {
-	public void work(Employee employee) {
-
+	public void study() { // Non-abstract method
+		System.out.println("Study"); 
 	}
 }

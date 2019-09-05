@@ -6,12 +6,11 @@
  * @version 1.0
  *
  * ======================================================= */
-package mgnt;
+package model;
 
-import model.Employee;
+public interface Member {
+	// public static final String ORG_NAME = "Cristiano Ronaldo";
+	String ORG_NAME = "Cristiano Ronaldo";
 
-public class Management {
-	public void work(Employee employee) {
-
-	}
+	void showName();
 }

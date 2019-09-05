@@ -8,10 +8,24 @@
  * ======================================================= */
 package model;
 
-public class Manager {
+public class Manager implements Member{
 	private String name;
+
+	public Manager() {
+		System.out.println("Created");
+	}
+
+	public Manager(String name) {
+		System.out.println("Created with name");
+	}
 
 	public void report(Employee employee) {
 		System.out.println(employee.name);
+	}
+
+	@Override
+	public void showName() {
+		// TODO Auto-generated method stub
+		
 	}
 }

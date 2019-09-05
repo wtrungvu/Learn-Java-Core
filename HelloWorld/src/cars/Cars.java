@@ -6,12 +6,12 @@
  * @version 1.0
  *
  * ======================================================= */
-package mgnt;
+package cars;
 
-import model.Employee;
+public interface Cars {
+	abstract void getBrand();
 
-public class Management {
-	public void work(Employee employee) {
+	abstract void getPower();
 
-	}
+	abstract void getPrice();
 }
